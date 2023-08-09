@@ -1,49 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1, h2 {
-    margin-bottom: 10px;
-  }
-  
-  form label {
-    display: block;
-    margin-top: 10px;
-  }
-  
-  form input[type="text"],
-  form textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  #notes-list {
-    margin-top: 30px;
-  }
-  
-  #notes {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .note-item {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f1f1;
+}
+h1{
+  margin-bottom: 10px;
+  text-align: center;
+  color:rgb(54, 150, 181);
+}
+#title{
+  background-color: #f5f1f1;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+.class1{
+  margin-bottom: 10px;
+}
+
+#id1{
+  margin-top: 7px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-left: 2px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#notes-list {
+  margin-top: 30px;
+}
+
+#notes {
+  list-style: none;
+  padding: 0;
+}
+
+.note-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
