@@ -17,7 +17,9 @@ The Note Taking App is a simple application that allows users to create, edit, a
 - The app communicates with a MySQL database for storing and managing notes.
 - Make sure you have MySQL installed and running.
 - create a table called "notes"
-    SQL Query for creating the notes table : 
+  
+    SQL Query for creating the notes table :
+  
         CREATE TABLE notes (
             id INT PRIMARY KEY AUTO_INCREMENT,
             title VARCHAR(255) NOT NULL,
