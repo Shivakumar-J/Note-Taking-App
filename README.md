@@ -15,6 +15,7 @@ The Note Taking App is a simple application that allows users to create, edit, a
 
 2. Set up the database:
 - The app communicates with a MySQL database for storing and managing notes.
+- Keep the credentials of your database in index.js file.
 - Make sure you have MySQL installed and running.
 - create a table called "notes"
   
