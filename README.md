@@ -32,7 +32,6 @@ The Note Taking App is a simple application that allows users to create, edit, a
 4. Open your web browser and navigate to `http://localhost:3000` to use the Note Taking App.
 
 
-
 ## How to Use
 
 1. **Add a Note:**
