@@ -4,10 +4,10 @@ const port = 3000;
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'shivakumar',
-  database: 'registration'
+  host: '',             // Replace with Host
+  user: '',             // User
+  password: '',         // Password
+  database: ''          // Database name
 });
 
 app.use(express.static('public'));
