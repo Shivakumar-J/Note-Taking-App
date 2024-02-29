@@ -31,21 +31,3 @@ A note-taking application which allows users to effortlessly create, edit and de
 3. Start the server by running the following command:  node app.js
 
 4. Open your web browser and navigate to `http://localhost:3000` to use the Note Taking App.
-
-
-## How to Use
-
-1. **Add a Note:**
-- Fill in the title and use the Quill editor to add content.
-- Click the "Save" button to add the note.
-
-2. **Edit a Note:**
-- In the "Notes" list, click the "Edit" button for the note you want to edit.
-- The title and content of the note will appear in the form fields.
-- Modify the title or content as needed.
-- Click the "Save" button to update the note.
-
-3. **Delete a Note:**
-- In the "Notes" list, click the "Delete" button for the note you want to delete.
-- The note will be removed from the list.
-
